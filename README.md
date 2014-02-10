@@ -17,6 +17,8 @@ var vm = {
 <div data-bind="chaptimeline: {events: someEvents, range: visibleRange}"></div>
 ```
 
+Or see this jsFiddle: [http://jsfiddle.net/edwardsnjd/N6br8/]()
+
 Dependencies
 ------------
 
