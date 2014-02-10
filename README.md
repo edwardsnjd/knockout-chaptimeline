@@ -6,16 +6,16 @@ A simple [knockout](http://knockoutjs.com/) binding for the [CHAP timeline](http
 Usage
 -----
 
-'''js
+```js
 var vm = {
 	someEvents: [{start: new Date(), content: "An event title"}],
 	range: {start: new Date(), end: new Date()}
 };
-'''
+```
 
-'''html
+```html
 <div data-bind="chaptimeline: {events: someEvents, range: visibleRange}"></div>
-'''
+```
 
 Dependencies
 ------------
